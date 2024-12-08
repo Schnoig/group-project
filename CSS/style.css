@@ -1,0 +1,421 @@
+
+
+/*edit the head section*/
+.header{
+  text-align: center;
+  background-image:url(Education.webp);
+   background-size: cover; 
+   background-position: center;
+  color: white; /* White text for better contrast */
+  border-bottom: 3px solid #000;
+  padding: 20px 0;
+}
+/*add background to heading and edit font size*/
+.container {
+  border-bottom: 3px solid #000; /* Black border for consistency */
+  padding: 20px 0; /* Space inside the header */
+   margin-bottom: 10px;
+}
+/*heading section*/*/
+ h1 {
+  font-size:35px;
+  margin-top: 55px;
+  color:White;
+  background-color:black;
+  background-size:cover;
+  text-align:center;
+}
+/*second button for qout*/
+ .nav-btn2 {
+	 border: 1px solid #000;
+  border-radius: 50px;
+  background-color: cyan;
+	
+}
+
+/* buttons of head section*/
+.nav-btn {
+  padding: 5px 15px;
+  border: 1px solid #000;
+  border-radius: 50px;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: darkgray;
+  
+} 
+
+/*images in a grid form*/
+.row img { 
+  border: 3px solid black; /* Add border to the images */
+  margin-bottom: 15px; /* Space between rows in mobile view */
+}
+
+p {/*Adjust the paragraph*/
+  margin-left:10px;
+  margin-top:20px;
+}
+
+img{
+	margin-top:10px;
+}
+.line { /*to add background and change the color of the line*/
+	font-size:20px;
+	color:red;
+	text-align: center;
+    margin-top: 40px;
+	background-color:Black;
+}
+
+@media (max-width: 768px) {
+  .heading h1 {
+    font-size: 24px; /* Further adjust for small devices */
+	text-align: center;
+  }
+
+  .nav .nav-button {
+    margin: 5px 5; /* Add spacing between buttos */
+    text-align: center;
+  }
+
+  /* Adjust grid layouts for smaller screens */
+  .col-md-6 {
+    width: 100%; /* Make columns full-width */
+    margin-bottom: 20px; /* Add spacing between stacked items */
+  }
+}
+
+
+/* QUIZ STUFF */
+#title {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#quiz {
+  text-indent: 10px;
+  display:none;
+}
+
+.button {
+  border:3px solid;
+  border-radius:5px;
+  width: 58px;
+  padding-left:5px;
+  padding-right: 5px;
+  position: relative;
+  float:right;
+  background-color: #DCDCDC;
+  color: black;
+  margin: 0 2px 0 2px;
+}
+
+.button.active {
+  background-color: #F8F8FF;
+  color: #525252;
+}
+
+button {
+  position: relative;
+  float:right;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+#box { /*Quiz box*/
+  width: 50%;
+  margin: auto;
+  padding: 0 25px 40px 10px;
+  background-color: #ffffff;
+  border:4px solid #000000;
+  border-radius:5px;
+  color: #000000;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#prev {
+  display:none;
+}
+
+#start {
+  display:none;
+  width: 91px;
+}
+
+#img{ /*images at bottom*/
+  text-align:center;
+  padding: 20px;
+}
+
+/* Feedback Form */
+#form-selector {margin: 0 41%; text-align: center;}
+#my-forms form { display:none; text-align: center;} 
+#my-forms.f-Home form[name=Home],
+#my-forms.f-Quiz form[name=Quiz],
+#my-forms.f-Resources form[name=Resources] { display:block }
+/*tags for the form to show and hide whichever is picked*/
+
+
+/* sheevos stuff */
+.container-fluid{ /*Sheevoughn*/ /*background for resources page*/
+	background-image: url("https://thumbs.dreamstime.com/b/seamless-education-topics-background-28599326.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	
+}
+.rowtext-center { /*Sheevoughn*/ /*heading of resources page*/
+	background-color: powderblue;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 25px;
+	color: Black;
+	border: 2px solid black;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-top: 30px;
+	padding-bottom: 100px;
+	width: 1000px;
+	height: 20px;	
+	
+
+	  font-family: "Bebas Neue", sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+	
+}
+.div1 { /*Sheevoughn*/ /*Importance of education*/
+	background-color: #ffffcc;
+	color: black;
+	border: 2px solid black;
+	margin-left: 140px;
+	padding: 10px;
+	width: 1100px;
+	height: 350px;
+	margin-top: 50px;
+	position: relative;
+	
+	p { /*Sheevoughn*/
+		width: 500px;
+		margin-left: 100px;
+		font-size: 25px;
+	}
+	
+	h3 { /*Sheevoughn*/
+		font-size: 30px;
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+	
+	font-family: "Karla", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	
+	
+	img { /*Sheevoughn*/
+		float: right;
+		width: 400px;
+		height: 250px;
+		object-fit: contain;
+		border-radius: 80px;
+		margin-left: 15px;
+		margin-right: 100px;
+	}
+}
+.div2 { /*Sheevoughn*/ /*Impact of technology on education*/
+	background-color: #ffffcc;
+	color: black;
+	border: 2px solid black;
+	margin-left: 140px;
+	margin-top: 50px;
+	padding: 10px;
+	width: 1100px;
+	height: 350px;
+	text-align: right;
+	position: relative;
+	
+	h3 { /*Sheevoughn*/
+		font-size: 25px;
+		margin-right: 100px;
+		margin-top: 40px;
+	}
+	p { /*Sheevoughn*/
+		float: right
+		width: 500px;
+		margin-right: 100px;
+		font-size: 25px;
+	}
+	
+	font-family: "Karla", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	
+	img { /*Sheevoughn*/
+		float: left;
+		width: 400px;
+		height: 250px;
+		object-fit: contain;
+		border-radius: 80px;
+		margin-right: 15px;
+		margin-left: 80px;
+	}
+
+}
+.div3 { /*Sheevoughn*/ /*Education around the world*/
+	background-color: #ffffcc;
+	color: black;
+	border: 2px solid black;
+	margin-left: 140px;
+	margin-top: 50px;
+	padding: 10px;
+	width: 1100px;
+	height: 350px;
+	position: relative;	
+	
+	h3 { /*Sheevoughn*/
+		font-size: 30px;
+		margin-left: 120px;
+		margin-top: 25px;
+	}
+	
+	p { /*Sheevoughn*/
+		width: 500px;
+		margin-left: 120px;
+		font-size: 25px;
+	}
+	
+	font-family: "Karla", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	
+	img { /*Sheevoughn*/
+		float: right;
+		width: 400px;
+		height: 250px;
+		object-fit: contain;
+		border-radius: 80px;
+		margin-left: 15px;
+		margin-right: 60px;
+	}
+}
+.div4 { /*Sheevoughn*/ /*benefits of education*/
+	background-color: #ffffcc;
+	color: black;
+	border: 2px solid black;
+	margin-left: 140px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 10px;
+	width: 1100px;
+	height: 350px;
+	text-align: right;
+	position: relative;	
+	
+	h3 { /*Sheevoughn*/
+		font-size: 25px;
+		margin-right: 50px;
+		margin-top: 40px;
+	}
+	p { /*Sheevoughn*/
+		float: right
+		width: 500px;
+		margin-right: 50px;
+		font-size: 24px;
+	}
+	
+	p2{ /*Sheevoughn*/
+		float: right
+		width: 500px;
+		margin-right: 50px;
+		font-size: 20px;
+	}
+	
+	ol{ /*Sheevoughn*/
+		float: right
+		width: 100px;
+		margin-right: 50px;
+		font-size: 22px
+	}
+	
+	font-family: "Karla", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+	
+	img { /*Sheevoughn*/
+		float: left;
+		width: 400px;
+		height: 250px;
+		object-fit: contain;
+		border-radius: 80px;
+		margin-right: 40px;
+		margin-left: 60px;
+	}
+}
+
+
+.container-fluid2{ /*Sheevoughn*/ /*background for Organizations page*/
+	background-image: url("https://thumbs.dreamstime.com/b/seamless-education-topics-background-28599326.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+}
+
+h1.Sheevo { /*Sheevoughn*/ /*heading of Organizations page*/
+		background-color: powderblue;
+		text-align: center;
+		letter-spacing: 5px;
+		font-size: 70px;
+		color: Black;
+		border: 2px solid black;
+		margin-top: 20px;
+		margin-left: 270px;
+		margin-top: 30px;
+		padding-bottom: 100px;
+		width: 500px;
+		height: 20px;	
+	
+
+		  font-family: "Bebas Neue", sans-serif;
+		  font-weight: 400;
+		  font-style: normal;
+	}
+
+.div5 { /*Sheevoughn*/ /*white inner background of Organizations page*/
+	Background-color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	margin-top: 100px
+
+}
+.column { /*Sheevoughn*/ /**/
+  width: 33.33%;
+}
+
+.row:after { /*Sheevoughn*/ /**/
+  content: "";
+  display: table;
+  clear: both;
+  
+}
